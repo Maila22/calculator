@@ -59,7 +59,7 @@ for (let i = 0; i < keyboard.length; i++){
                         if (lastKey == 'number' || lastKey == 'equals') {
                             if (display.innerText == 0) {
                                 if (keyboard[i] != 'subtract') {
-                                    calc = (lastKey == 'subttractPlus') ? calc.slice(0, -3) + this.innerText + ' ' : calc.slice(0, -2) + this.innerText + ' ';
+                                    calc = (lastKey == 'subtractPlus') ? calc.slice(0, -3) + this.innerText + ' ' : calc.slice(0, -2) + this.innerText + ' ';
                                     displaySmall.innerText = calc;
                                     lastKey = 'subtractPlus';
                                     return;
@@ -101,3 +101,4 @@ for (let i = 0; i < keyboard.length; i++){
     });
 
 }
+
