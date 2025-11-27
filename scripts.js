@@ -1,4 +1,4 @@
-const equator = ['clear', 'divide', 'multiply', 'subtract', 'add', 'equals'];
+const operator = ['clear', 'divide', 'multiply', 'subtract', 'add', 'equals'];
 const num = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'decimal'];
 const keyboard = operator.contact(num);
 const displaySmall = document.getElementById('display_small');
@@ -99,4 +99,5 @@ for (let i = 0; i < keyboard.length; i++){
             }
         }
     });
+
 }
